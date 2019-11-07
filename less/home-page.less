@@ -1,5 +1,27 @@
 .home {
 
+  header{
+    
+    h1{
+      display:flex;
+      justify-content: flex-start;
+      font-size:43px;
+    
+    }
+  }
+
+  .funbus{
+    border-top: 2px dashed @navigation-border;
+    margin-bottom: 3rem;
+   
+  }
+
+  .Intro{
+    border-bottom: 2px dashed @navigation-border;
+    margin-bottom:3rem;
+    
+  }
+
   .content-section {
     margin: 30px 0;
     display: flex;
@@ -45,6 +67,8 @@
     img {
       border-radius: 10px;
     }
+
+    
   }
 
   .content-pick {
@@ -56,6 +80,12 @@
     .destination {
       width: 30%;
       margin-bottom: 30px;
+
+      .btn{
+        .buttoncolor();
+  
+      }
+      
     }
   }
 }// home

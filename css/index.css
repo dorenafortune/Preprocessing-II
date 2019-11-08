@@ -216,7 +216,7 @@ nav a {
 }
 @media (max-width:500px) {
   .home .funbus {
-    width: 95%;
+    width: 100%;
   }
 }
 .home .Intro {
@@ -315,7 +315,7 @@ nav a {
 }
 @media (max-width:500px) {
   .content-pick .destination {
-    width: 75%;
+    width: 80%;
   }
 }
 .content-pick .destination .btn {

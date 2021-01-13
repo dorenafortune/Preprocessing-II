@@ -1,4 +1,59 @@
 .home {
+  
+
+  header{
+
+
+  
+    
+    h1{
+      display:flex;
+      justify-content: flex-start;
+      font-size:43px;
+
+      
+    @media @mobile {
+      flex-direction: column;
+      align-items: center;
+      width: 78%;
+      
+    }
+  
+
+    
+    }
+  }
+
+  .funbus{
+    border-top: 2px dashed @navigation-border;
+    margin-bottom: 3rem;
+
+    @media @mobile{
+      width: 100%;
+      
+    }
+
+
+    
+
+  
+   
+  }
+
+  .Intro{
+    border-bottom: 2px dashed @navigation-border;
+    margin-bottom:3rem;
+
+    @media @mobile{
+      width: 80%;
+      margin:2rem;
+    
+    }
+
+
+
+  
+  }
 
   .content-section {
     margin: 30px 0;
@@ -6,16 +61,39 @@
     flex-wrap: wrap;
     justify-content: space-between;
 
+    
+
+    
+  }
+
+
    
     
     .text-content {
       width: 48%;
       padding-right: 1%;
+
+      
+    @media @mobile{
+      width: 80%;
+      margin:2rem;
+    }
+
+
+
     }
 
     .img-content {
       width: 48%;
       padding-left: 1%;
+
+      @media @mobile{
+        width: 70%;
+        margin-left:2rem;
+
+    
+      }
+      
 
       img {
         border-radius: 10px;
@@ -27,6 +105,11 @@
     padding-bottom: 30px;
     border-bottom: 2px dashed @navigation-border;
 
+    @media @mobile{
+      flex-direction: column-reverse;
+    }
+
+  
     .text-content {
       padding-left: 1%;
       padding-right: 0;
@@ -42,9 +125,30 @@
     width: 75%;
     margin: 0 auto 30px;
 
+    @media @mobile{
+      display:flex;
+      justify-content:center;
+      flex-direction: column;
+      align-content: center;
+      margin:2rem;
+
+  
+    }
+    
+
+
     img {
       border-radius: 10px;
+
+      @media @mobile{
+        width:90%;
+  
+    
+      }
+      
     }
+
+    
   }
 
   .content-pick {
@@ -53,9 +157,31 @@
     display: flex;
     justify-content: space-between;
 
+    @media @mobile{
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      
+
+  
+    }
+    
+
     .destination {
       width: 30%;
       margin-bottom: 30px;
+
+      @media @mobile{
+        width:80%;
+      }
+
+    
+      .btn{
+        .buttoncolor();
+
+        
+      }
+      
     }
   }
-}// home
+// home
